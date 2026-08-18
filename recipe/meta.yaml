@@ -1,13 +1,13 @@
 {% set name = "itkwasm-downsample-wasi" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/i/itkwasm-downsample-wasi/itkwasm_downsample_wasi-{{ version }}.tar.gz
-  sha256: e6fab0fac6fd65bd27a58883b735256b7253e7312298e0f98009f0c5c622e1c3
+  url: https://files.pythonhosted.org/packages/source/i/itkwasm-downsample-wasi/itkwasm_downsample_wasi-{{ version }}.tar.gz
+  sha256: b0f60ee4a243ecfb897406a8086c12563d1844cf665722994d0c95a82601b785
 
 build:
   number: 0
